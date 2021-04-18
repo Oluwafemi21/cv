@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+    margin-bottom: 4em;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 960px;
+    
+}
+
+.profile{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.profile-photo{
+    text-align: center;
+    margin-top: 3rem;
+} 
+
+.profile-photo img{
+    border-radius: 50%;
+    height: 150px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: .7em;
+}
+
+.bx{
+    font-size: 20px;
+    margin: 3px;
+}
+
+p{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+
+.comms{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.comms p{
+    margin-right: 20px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    justify-content: space-around;
+}
+
+
+.social-links{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 40px;
+}
+
+.social-links p {
+    margin: 0 20px;
+}
+
+.social-links p , .details p , .comms p{
+    align-items: center;
+}
+
+h3{
+    border-bottom: 3px solid black;
+    margin-top: 10px;
+}
+
+.flex-1{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.bottom{
+    margin-top: 15px;
+}
+
+.bottom-span{
+    padding-bottom: 40px;
+}
+
+.left{
+    margin-left: 20%;
+}
+
+.location{
+    padding-bottom: 30px;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.left-2{
+    margin-left: 50%;
+}
+
+.left-3{
+    margin-left: 29%;
+}
+
+.left-4{
+    margin-left: 25.3%;
+}
